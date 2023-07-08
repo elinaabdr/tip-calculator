@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import Combine
 
 class TipViewController: UIViewController {
     
@@ -30,11 +31,28 @@ class TipViewController: UIViewController {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()
+    
+    private let viewModel = CalculatorViewModel()
+    private var cancellables = Set<AnyCancellable>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupViews()
+        bind()
+    }
+    
+    private func bind() {
+        
+        let input = CalculatorViewModel.Input(billPublisher: billInputView.valuePublisher,
+                                              tipPublisher: tipInputView.valuePublisher,
+                                              splitPublisher: splitInputView.valuePublisher )
+        
+        let output = viewModel.transform(input: input)
+        
+        output.updatePublisherView.sink { result in
+            print(">>>\(result)")
+        }.store(in: &cancellables)
     }
 
     private func setupViews() {
