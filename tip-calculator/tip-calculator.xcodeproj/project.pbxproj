@@ -42,8 +42,13 @@
 <<<<<<< Updated upstream
 =======
 		A14FA24B2A6430D700556BCB /* Double + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FA24A2A6430D700556BCB /* Double + Extensions.swift */; };
+<<<<<<< Updated upstream
 		A14FA24E2A6945DC00556BCB /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A14FA24D2A6945DC00556BCB /* click.m4a */; };
 		A14FA2512A69461C00556BCB /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FA2502A69461C00556BCB /* AudioPlayerService.swift */; };
+>>>>>>> Stashed changes
+=======
+		A14FA2542A694E4700556BCB /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A14FA2532A694E4700556BCB /* click.m4a */; };
+		A14FA2572A694E8500556BCB /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FA2562A694E8500556BCB /* AudioPlayerService.swift */; };
 >>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
@@ -99,8 +104,13 @@
 <<<<<<< Updated upstream
 =======
 		A14FA24A2A6430D700556BCB /* Double + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extensions.swift"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		A14FA24D2A6945DC00556BCB /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
 		A14FA2502A69461C00556BCB /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
+=======
+		A14FA2532A694E4700556BCB /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		A14FA2562A694E8500556BCB /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 >>>>>>> Stashed changes
 /* End PBXFileReference section */
 
@@ -158,8 +168,13 @@
 		A12FB2442A5703AC002A1B3C /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				A14FA24F2A6945F900556BCB /* Service */,
 				A14FA24C2A69458000556BCB /* Resource */,
+=======
+				A14FA2552A694E4F00556BCB /* Service */,
+				A14FA2522A694E1500556BCB /* Resource */,
+>>>>>>> Stashed changes
 				A12FB2A42A587374002A1B3C /* View Model */,
 				A12FB29F2A586BCA002A1B3C /* Model */,
 				A12FB2982A5830DB002A1B3C /* Factory */,
@@ -261,18 +276,32 @@
 			path = "View Model";
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		A14FA24C2A69458000556BCB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				A14FA24D2A6945DC00556BCB /* click.m4a */,
+=======
+		A14FA2522A694E1500556BCB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A14FA2532A694E4700556BCB /* click.m4a */,
+>>>>>>> Stashed changes
 			);
 			path = Resource;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		A14FA24F2A6945F900556BCB /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				A14FA2502A69461C00556BCB /* AudioPlayerService.swift */,
+=======
+		A14FA2552A694E4F00556BCB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A14FA2562A694E8500556BCB /* AudioPlayerService.swift */,
+>>>>>>> Stashed changes
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -397,6 +426,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14FA2542A694E4700556BCB /* click.m4a in Resources */,
 				A12FB2522A5703AF002A1B3C /* LaunchScreen.storyboard in Resources */,
 				A14FA24E2A6945DC00556BCB /* click.m4a in Resources */,
 				A12FB24F2A5703AF002A1B3C /* Assets.xcassets in Resources */,
@@ -436,8 +466,12 @@
 				A12FB2A32A586C2C002A1B3C /* HeaderView.swift in Sources */,
 				A12FB2872A58164A002A1B3C /* ResultView.swift in Sources */,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 				A14FA2512A69461C00556BCB /* AudioPlayerService.swift in Sources */,
+=======
+				A14FA2572A694E8500556BCB /* AudioPlayerService.swift in Sources */,
+>>>>>>> Stashed changes
 				A14FA24B2A6430D700556BCB /* Double + Extensions.swift in Sources */,
 >>>>>>> Stashed changes
 				A12FB2462A5703AC002A1B3C /* AppDelegate.swift in Sources */,

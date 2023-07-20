@@ -19,15 +19,24 @@ class CalculatorViewModel {
     struct Output {
         let updatePublisherView: AnyPublisher<Result, Never>
         let resetCalculatorPublisher: AnyPublisher<Void, Never>
+<<<<<<< Updated upstream
     }
     
     private let audioPlayerService: AudioPlayerService
     
     init(audioPlayerService: AudioPlayerService = DefaultAudioPlayer()) {
         self.audioPlayerService = audioPlayerService
+=======
+>>>>>>> Stashed changes
     }
     
     private var cancellables = Set<AnyCancellable>()
+    
+    private let audioPlayerService: AudioPlayerService
+    
+    init(audioPlayerService: AudioPlayerService = DefaultAudioPlayer()) {
+      self.audioPlayerService = audioPlayerService
+    }
     
     func transform(input: Input) -> Output {
         
@@ -36,12 +45,21 @@ class CalculatorViewModel {
                             totalTip: 50.0)
         
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         return Output(updatePublisherView: Just(result).eraseToAnyPublisher() )
 =======
         let resultCalculatorPublisher = input.logoViewTapPublisher.handleEvents(receiveOutput: { [unowned self] in
             audioPlayerService.playSound()
         }).flatMap {
             return Just($0)
+=======
+        let resultCalculatorPublisher = input
+          .logoViewTapPublisher
+          .handleEvents(receiveOutput: { [unowned self] in
+          audioPlayerService.playSound()
+        }).flatMap {
+          return Just($0)
+>>>>>>> Stashed changes
         }.eraseToAnyPublisher()
         
         return Output(updatePublisherView: updateViewPulisher,

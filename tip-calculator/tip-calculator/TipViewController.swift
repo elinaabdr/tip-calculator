@@ -52,7 +52,11 @@ class TipViewController: UIViewController {
             Just(())
         }.eraseToAnyPublisher()
     }()
+<<<<<<< Updated upstream
 
+=======
+    
+>>>>>>> Stashed changes
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -78,6 +82,7 @@ class TipViewController: UIViewController {
             billInputView.reset()
             tipInputView.reset()
             splitInputView.reset()
+<<<<<<< Updated upstream
             
             UIView.animate(withDuration: 0.1,
                            delay: 0,
@@ -98,8 +103,23 @@ class TipViewController: UIViewController {
             view.endEditing(true)
         }.store(in: &cancellables)
        
+=======
+            UIView.animate(
+                withDuration: 0.1,
+                delay: 0,
+                usingSpringWithDamping: 5.0,
+                initialSpringVelocity: 0.5,
+                options: .curveEaseInOut) {
+                    self.logoView.transform = .init(scaleX: 1.5, y: 1.5)
+                } completion: { _ in
+                    UIView.animate(withDuration: 0.1) {
+                        self.logoView.transform = .identity
+                    }
+                }
+        }.store(in: &cancellables)
+>>>>>>> Stashed changes
     }
-
+    
     private func setupViews() {
         view.backgroundColor = ThemeColor.bg
         

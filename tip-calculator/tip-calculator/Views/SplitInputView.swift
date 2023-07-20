@@ -108,4 +108,8 @@ class SplitInputView: UIView {
             quantityLabel.text = quantity.stringValue
         }.store(in: &cancellables)
     }
+    
+    func reset() {
+        splitSubject.send(1)
+    }
 }
