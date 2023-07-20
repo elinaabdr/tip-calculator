@@ -50,8 +50,8 @@ class TipViewController: UIViewController {
         
         let output = viewModel.transform(input: input)
         
-        output.updatePublisherView.sink { result in
-            print(">>>\(result)")
+        output.updatePublisherView.sink { [unowned self] result in
+            resultView.configure(result: result)
         }.store(in: &cancellables)
     }
 
