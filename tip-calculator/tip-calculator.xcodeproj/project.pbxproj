@@ -39,6 +39,12 @@
 		A12FB2AA2A596458002A1B3C /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB2A92A596458002A1B3C /* String + Extension.swift */; };
 		A12FB2AC2A596EC2002A1B3C /* UIResponder + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB2AB2A596EC2002A1B3C /* UIResponder + Extension.swift */; };
 		A12FB2AE2A5977EB002A1B3C /* Int + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB2AD2A5977EB002A1B3C /* Int + Extension.swift */; };
+<<<<<<< Updated upstream
+=======
+		A14FA24B2A6430D700556BCB /* Double + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FA24A2A6430D700556BCB /* Double + Extensions.swift */; };
+		A14FA24E2A6945DC00556BCB /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A14FA24D2A6945DC00556BCB /* click.m4a */; };
+		A14FA2512A69461C00556BCB /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FA2502A69461C00556BCB /* AudioPlayerService.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +96,12 @@
 		A12FB2A92A596458002A1B3C /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
 		A12FB2AB2A596EC2002A1B3C /* UIResponder + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder + Extension.swift"; sourceTree = "<group>"; };
 		A12FB2AD2A5977EB002A1B3C /* Int + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int + Extension.swift"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		A14FA24A2A6430D700556BCB /* Double + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extensions.swift"; sourceTree = "<group>"; };
+		A14FA24D2A6945DC00556BCB /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		A14FA2502A69461C00556BCB /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +158,8 @@
 		A12FB2442A5703AC002A1B3C /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A14FA24F2A6945F900556BCB /* Service */,
+				A14FA24C2A69458000556BCB /* Resource */,
 				A12FB2A42A587374002A1B3C /* View Model */,
 				A12FB29F2A586BCA002A1B3C /* Model */,
 				A12FB2982A5830DB002A1B3C /* Factory */,
@@ -245,6 +259,22 @@
 				A12FB2A52A58738D002A1B3C /* CalculatorViewModel.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		A14FA24C2A69458000556BCB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A14FA24D2A6945DC00556BCB /* click.m4a */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A14FA24F2A6945F900556BCB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A14FA2502A69461C00556BCB /* AudioPlayerService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A12FB2522A5703AF002A1B3C /* LaunchScreen.storyboard in Resources */,
+				A14FA24E2A6945DC00556BCB /* click.m4a in Resources */,
 				A12FB24F2A5703AF002A1B3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +435,11 @@
 				A12FB2AC2A596EC2002A1B3C /* UIResponder + Extension.swift in Sources */,
 				A12FB2A32A586C2C002A1B3C /* HeaderView.swift in Sources */,
 				A12FB2872A58164A002A1B3C /* ResultView.swift in Sources */,
+<<<<<<< Updated upstream
+=======
+				A14FA2512A69461C00556BCB /* AudioPlayerService.swift in Sources */,
+				A14FA24B2A6430D700556BCB /* Double + Extensions.swift in Sources */,
+>>>>>>> Stashed changes
 				A12FB2462A5703AC002A1B3C /* AppDelegate.swift in Sources */,
 				A12FB2972A582D36002A1B3C /* UILabel + Extension.swift in Sources */,
 				A12FB2AE2A5977EB002A1B3C /* Int + Extension.swift in Sources */,
